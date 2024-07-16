@@ -8,23 +8,23 @@ const Contact = () => {
     <Navbar/>
     <div className='flex h-screen items-center justify-center'>
       <div className='w-[600px]'>
-        <div className="modal-box dark:text-black">
+        <div className="modal-box dark:bg-slate-800 dark:text-white">
           <form method="dialog">
           <h3 className="font-bold text-2xl">Contact Us</h3>
-          <div className="mt-4 space-y-2">
+          <div className="mt-4 space-y-2 ">
             <span>Name</span>
             <br />
-            <input type="text" placeholder="Enter your name" className="w-80 px-2 py-1 border rounded-md outline-none"/>
+            <input type="text" placeholder="Enter your name" className="w-80 px-2 py-1 border rounded-md outline-none dark:bg-slate-800 dark:text-white"/>
           </div>
           <div className="mt-4 space-y-2">
             <span>Email</span>
             <br />
-            <input type="email" placeholder="Enter your email" className="w-80 px-2 py-1 border rounded-md outline-none"/>
+            <input type="email" placeholder="Enter your email" className="w-80 px-2 py-1 border rounded-md outline-none dark:bg-slate-800 dark:text-white"/>
           </div>
           <div className="mt-4 space-y-2">
             <span>Message</span>
             <br />
-            <textarea placeholder="Type your message" className="w-80 px-2 py-1 border rounded-md outline-none" />
+            <textarea placeholder="Type your message" className="w-80 px-2 py-1 border rounded-md outline-none dark:bg-slate-800 dark:text-white" />
               
           </div>
           <div className="mt-6">
